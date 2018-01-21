@@ -177,7 +177,7 @@ tbl6<-textstat_frequency(Mydfm6)
 
 save(tbl6, file="tbl6.Rda")
 
-rm(tbl6, Mydfm6, TxtCoprAll)
+rm(tbl6, Mydfm6, TxtCorpAll)
 
 gc()
 

@@ -22,7 +22,7 @@ load("six.Rda")
 
 # read in text and select the last 5 words of each
 
-newtext1<-"don't be a"
+newtext1<-"i just bought a new"
 toke<-tokens_tolower(tokens(newtext1, remove_punct=T, remove_numbers=T, remove_symbols=T))
 newtext<-as.character(unlist(toke))
 newtext<-gsub("'", '', newtext)

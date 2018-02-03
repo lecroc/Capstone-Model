@@ -22,7 +22,7 @@ load("six.Rda")
 
 # read in text and select the last 5 words of each
 
-newtext1<-"i just bought a new"
+newtext1<-"what the"
 toke<-tokens_tolower(tokens(newtext1, remove_punct=T, remove_numbers=T, remove_symbols=T))
 newtext<-as.character(unlist(toke))
 newtext<-gsub("'", '', newtext)
@@ -130,4 +130,3 @@ if (length(newtext)==1) {
 print(noquote(newtext))
 
 print(noquote(unique(words)))
-
